@@ -6,6 +6,7 @@ body {
 
 footer {
   clear:both;
+  padding:30px 30px;
 }
 
 li {
@@ -31,6 +32,10 @@ nav {
   text-transform: uppercase;
 }
 
+img {
+
+}
+
 /* Class Styling */
 .outside-section {
   background-color:black;
@@ -53,15 +58,32 @@ nav {
 
 .form-section {
   float:left;
-  max-width: 350px;
-  max-height: 864px;
-  padding: 50px;
-  border: 0px;
+  max-width: 380px;
+  max-height: 935px;
+  padding: 20px;
   background-color: white;
+
 }
 
-.border {
+.instagram-size {
+  width:220px;
+  padding: 10px 25px 25px 10px;
+
+}
+
+.img-float {
+  float:left;
+  margin-left: 7px;
+  margin-right: 7px;
+}
+
+.form-border {
   padding:15px;
+  margin:15px;
+}
+
+.login-border {
+  padding: 5px 15px 5px 15px;
   margin:15px;
 }
 
@@ -73,6 +95,9 @@ nav {
   background-color: rgb(37, 145, 244);
   padding:7px;
   font-size:13px;
+}
 
+.box-shadow {
+  box-shadow: 2px 2px 2px 2px lightgrey;
 
 }
