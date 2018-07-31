@@ -1,18 +1,48 @@
 /* Element styling */
 body {
   text-align:center;
+  font-family:sans-serif;
 }
 
 footer {
   clear:both;
 }
+
+li {
+  float:left;
+  display:block;
+  padding-left:10px;
+  padding-right:10px;
+  color: black;
+}
+
+li a {
+  text-decoration: none;
+  color:black
+
+}
+
+button a {
+  color: white;
+  text-decoration:none;
+}
+
+nav {
+  text-transform: uppercase;
+}
+
 /* Class Styling */
+.outside-section {
+  background-color:black;
+}
+
 .main-section {
   max-height:810px;
   max-width:935px;
   display: block;
   margin-left: auto;
   margin-right: auto;
+
 }
 
 .image-section {
@@ -27,5 +57,22 @@ footer {
   max-height: 864px;
   padding: 50px;
   border: 0px;
+  background-color: white;
+}
+
+.border {
+  padding:15px;
+  margin:15px;
+}
+
+.block {
+  display: block;
+  border: none;
+  width: 100%;
+  color: white;
+  background-color: rgb(37, 145, 244);
+  padding:7px;
+  font-size:13px;
+
 
 }
