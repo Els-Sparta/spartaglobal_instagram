@@ -1,1 +1,31 @@
 /* Element styling */
+body {
+  text-align:center;
+}
+
+footer {
+  clear:both;
+}
+/* Class Styling */
+.main-section {
+  max-height:810px;
+  max-width:935px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.image-section {
+  float:left;
+  padding: 50px 25px 50px 25px;
+
+}
+
+.form-section {
+  float:left;
+  max-width: 350px;
+  max-height: 864px;
+  padding: 50px;
+  border: 0px;
+
+}
