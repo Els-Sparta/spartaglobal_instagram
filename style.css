@@ -164,3 +164,20 @@ body {
 div .app-background {
   background-color:#fafafa;
 }
+
+@media screen and (max-width:800px){
+  .image-section {
+    display:none;
+  }
+
+  .form-section {
+    float:none;
+    width:100%;
+    margin:auto;
+  }
+
+  .outside-section {
+    background-color: rgb(239, 239, 239);
+  }
+
+}
